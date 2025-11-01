@@ -1,0 +1,14 @@
+/build
+/android/build
+/android/src/main/cpp/godot
+/android/generated
+/android/libs
+/node_modules
+
+/ios/libs
+/lib
+
+.yarn/
+.gradle/
+.cxx/
+.DS_Store
