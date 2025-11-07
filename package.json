@@ -56,7 +56,10 @@
         "access": "public"
     },
     "npm": {
-        "versionArgs": ["--allow-same-version", "--workspaces-update=false"]
+        "versionArgs": [
+            "--allow-same-version",
+            "--workspaces-update=false"
+        ]
     },
     "devDependencies": {
         "@babel/core": "^7.25.2",
