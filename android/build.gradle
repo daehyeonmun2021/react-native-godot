@@ -231,7 +231,8 @@ repositories {
 dependencies {
   implementation 'com.facebook.react:react-native'
   implementation project(':react-native-worklets-core')
-  api "com.migeran.libgodot:godot-debug:${libGodotVersion}-SNAPSHOT"
+  // 로컬 libgodot-android.zip release 템플릿 아티팩트 사용
+  api "com.migeran.libgodot:godot:${libGodotVersion}-SNAPSHOT"
 }
 
 task deleteCmakeCache() {
